@@ -1,0 +1,11 @@
+{
+  "name": "the-taipist",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/rjforty/the-taipist.git",
+  "author": "Griffith Awuah",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
