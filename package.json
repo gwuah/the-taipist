@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/rjforty/the-taipist.git",
-  "author": "Griffith Awuah",
+  "author": "Griffith Awuah, Raaj Ahiable",
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.2"
