@@ -14,7 +14,10 @@ app.engine('handlebars', handlebars({ defaultLayout : 'main' }));
 
 app.set('view engine', 'handlebars');
 
-// Setting up route to /
+//Express middleware to configure directory to load static files
+app.use(express.static('assets'))
+
+// Routes. Will probably move this to a seperate file once it gets large
 
 app.get('/', (req, res) => {
   res.render('index'); //Index file in /views
